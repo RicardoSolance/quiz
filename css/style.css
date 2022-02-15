@@ -24,7 +24,7 @@ body {
   color: rgba(252, 243, 197, 0.301);
   font-weight: 500;
 }
-.inicio > a {
+.boton {
   text-decoration: none;
   background-color: #ce3a52;
   color: #ffffff;
@@ -32,4 +32,9 @@ body {
   padding: 1rem 2rem;
   border-radius: 10px;
   margin-top: 1rem;
+}
+
+
+a{
+  text-decoration: none;
 }
