@@ -46,3 +46,64 @@ a {
   justify-content: space-between;
   outline: none;
 }
+form {
+  /* background-color: #ce3a52; */
+  width: 100%;
+  /* margin: auto; */
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  /* background-color: #ffffff; */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-bottom: 2rem;
+}
+.question {
+  width: 100%;
+  height: 9.5rem;
+  background-color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+.question h3 {
+  color: #000000;
+  text-align: center;
+  font-size: 30px;
+}
+
+.answer {
+  height: 6rem;
+  width: 100%;
+  margin: 0.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  color: #ffffff;
+  font-size: 28px;
+  border: 2px solid white;
+}
+#color1 {
+  background-color: #ce3a52;
+}
+#color2 {
+  background-color: #0b154d;
+}
+#color3 {
+  background-color: #4c9e53;
+}
+#color4 {
+  background-color: #ffc039;
+}
