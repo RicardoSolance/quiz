@@ -1,7 +1,8 @@
 body {
-  background-color: #e9ad01;
+  background-color: #ffc310;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-image: url(../assets/img/bg.svg);
 }
 .inicio {
   display: flex;
@@ -16,13 +17,14 @@ body {
 
 .inicio > h3 {
   font-family: "EB Garamond", serif;
-  color: #3c8375;
+  color: #178a73;
   margin: 0;
+  text-shadow: 0px 1px #ffffff;
   font-size: 5rem;
 }
 .inicio > p {
-  color: rgba(252, 243, 197, 0.301);
-  font-weight: 500;
+  color: rgb(238, 238, 223);
+  font-weight: 700;
 }
 .boton {
   text-decoration: none;
@@ -31,10 +33,16 @@ body {
   text-align: center;
   padding: 1rem 2rem;
   border-radius: 10px;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
-
-a{
+a {
   text-decoration: none;
+}
+
+/* ------------------------------------------------------ */
+.botones {
+  display: flex;
+  justify-content: space-between;
+  outline: none;
 }
