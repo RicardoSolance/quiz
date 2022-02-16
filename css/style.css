@@ -110,7 +110,11 @@ fieldset {
   background-color: #ffc039;
 }
 
-label{
+label {
   width: 100%;
   height: 100%;
+  text-align: center;
+}
+input {
+  /* visibility: hidden; */
 }
