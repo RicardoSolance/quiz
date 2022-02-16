@@ -64,6 +64,7 @@ fieldset {
   width: 100%;
   height: 100vh;
   /* background-color: #ffffff; */
+  gap: 3rem;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -96,16 +97,21 @@ fieldset {
   font-size: 28px;
   border: 1px solid white;
 }
-#color1 {
+
+.question .answer{
+  border: none;
+}
+
+.color1 {
   background-color: #ce3a52;
 }
-#color2 {
+.color2 {
   background-color: #0b154d;
 }
-#color3 {
+.color3 {
   background-color: #4c9e53;
 }
-#color4 {
+.color4 {
   background-color: #ffc039;
 }
 
@@ -117,5 +123,5 @@ fieldset {
 input {
   background-color: aqua;
   width: 100%;
-  height: 6rem;
+  height: auto;
 }
