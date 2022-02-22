@@ -78,7 +78,6 @@ fieldset > .question {
   background-color: #ffffff;
 
   border-radius: 2px;
-  text-overflow: ;
 }
 .question h3 {
   color: #000000;
@@ -127,4 +126,13 @@ input {
   height: 3rem;
   width: 100%;
   height: auto;
+}
+
+
+.correcta{
+  background-color: green;
+}
+
+.incorrecto{
+  background-color: red;
 }
