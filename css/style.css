@@ -127,3 +127,12 @@ input {
   width: 100%;
   height: auto;
 }
+
+
+.correcta{
+  background-color: green;
+}
+
+.incorrecto{
+  background-color: red;
+}
