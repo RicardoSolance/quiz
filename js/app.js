@@ -13,7 +13,7 @@ function respuestas(){
         }else{
             //verdadera[i].classList.add('incorrecto');
             parrafo = document.createElement('P'),
-            parrafo.innerHTML='incorrecto ):';
+            parrafo.innerHTML='INCORRECTO ):';
             field[i].appendChild(parrafo);
         }
     }
