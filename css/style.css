@@ -142,9 +142,10 @@ input {
   width: 100%;
   height: auto;
   position: absolute;
-  /* visibility: hidden; */
+  visibility: hidden;
 }
-input:checked + label::after {
+
+input:checked + .answer {
   background-color: rgb(44, 189, 44);
 }
 
