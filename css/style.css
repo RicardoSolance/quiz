@@ -165,5 +165,12 @@ input:checked + .answer {
 
 /* //--------------------commmit------------------------------------------- */
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 700px) {
+  .answer {
+    width: 50%;
+  }
+  label {
+    width: 95%;
+    height: 7rem;
+  }
 }
