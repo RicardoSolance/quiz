@@ -145,8 +145,8 @@ input {
   visibility: hidden;
 }
 
-input:checked + .answer {
-  background-color: rgb(44, 189, 44);
+input[type="radio"]:checked + label {
+  background: rgb(44, 189, 44);
 }
 
 .correcta {
